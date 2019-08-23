@@ -14,3 +14,53 @@ body{
     background: rgba(0, 0, 0,0.6) !important;
     letter-spacing: .1rem;
 }
+
+.navbar-brand{
+    height: 2rem;
+}
+.nav-item.nav-link{
+    color:white !important;
+}
+.nav-item.nav-link.active,.nav-item.nav-link:hover{
+    color:#1ebba3 !important;
+}
+
+/* landing page */
+.home-inner{
+    background-image:url("../img/landing.jpg");
+    /* background-size: cover;
+     */
+     background-attachment: fixed;
+    height: 100vh;
+    background-position: center;
+}
+
+.caption{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 38%;
+    text-transform: uppercase;
+    color: white;
+}
+
+.caption h1{
+    font-weight: 700;
+    font-size: 3.8rem;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+
+}
+.caption h3{
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+
+.btn-lg{
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
+}
