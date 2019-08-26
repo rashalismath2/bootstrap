@@ -1,89 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Bootstrap Design</title>
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style/bootstrap.min.css">
-    <link rel="stylesheet" href="style/style.css">
-</head>
-<body data-spy="scroll" data-target="#navbarResponsive">
-
+    <!-- <link rel="stylesheet" href="style/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <script src="https://use.fontawesome.com/9f4ed5f194.js"></script>
+  </head>
+  <body data-spy="scroll" data-target="#navbarResponsive">
     <!-- start home section -->
     <div id="home">
+      <!-- nav start -->
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">#WebDev</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" href="#home">Home</a>
+            <a class="nav-item nav-link" href="#course">Course</a>
+            <a class="nav-item nav-link" href="#feature">Feature</a>
+            <a class="nav-item nav-link" href="#resources">Resources</a>
+            <a class="nav-item nav-link" href="#clients">Clients</a>
+            <a class="nav-item nav-link" href="#contact">Contact</a>
+          </div>
+        </div>
+      </nav>
+      <!-- nav close -->
 
-        <!-- nav start -->
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-            <a class="navbar-brand" href="#">#WebDev</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link" href="#home">Home</a>
-                    <a class="nav-item nav-link" href="#course">Course</a>
-                    <a class="nav-item nav-link" href="#feature">Feature</a>
-                    <a class="nav-item nav-link" href="#resources">Resources</a>
-                    <a class="nav-item nav-link" href="#clients">Clients</a>
-                    <a class="nav-item nav-link" href="#contact">Contact</a>
-                </div>
-            </div>
-        </nav>
-        <!-- nav close -->
+      <!-- start landing page section   -->
+      <div class="landing">
+        <div class="home-wrap">
+          <div class="home-inner"></div>
+        </div>
+      </div>
 
-        <!-- start landing page section   -->
-            <div class="landing">
-                <div class="home-wrap">
-                    <div class="home-inner">
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="caption text-center">
-                <h1>WELCOME!</h1>
-                <h3>WEB DESIGN AND DEVELOPMENT</h3>
-                <a href="#course" class="btn btn-outline-light btn-lg">Scroll Down</a>
-            </div>
-        <!-- ending landing page section   -->
-        
+      <div class="caption text-center">
+        <h1>WELCOME!</h1>
+        <h3>WEB DESIGN AND DEVELOPMENT</h3>
+        <a href="#course" class="btn btn-outline-light btn-lg">Scroll Down</a>
+      </div>
+      <!-- ending landing page section   -->
     </div>
     <!-- end home section -->
 
     <!--start course section -->
     <div id="course">
-        <div class="col-12 text-center narrow">
-            <h1>This web page has been designed using bootstrap with responsive design</h1>
-            <p class="lead">Bootstrap with responsive
-                designing.
-            </p>
-            <a  target="_blank" class="btn btn-secondary btn-md" href="https://github.com/rashalismath2/bootstrap">
-                See this on GitHub</a>
-        </div>
+      <div class="col-12 text-center narrow">
+        <h1>
+          This web page has been designed using bootstrap with responsive design
+        </h1>
+        <p class="lead">Bootstrap with responsive designing.</p>
+        <a
+          target="_blank"
+          class="btn btn-secondary btn-md"
+          href="https://github.com/rashalismath2/bootstrap"
+        >
+          See this on GitHub</a
+        >
+      </div>
     </div>
     <!-- end of the course section -->
 
     <!-- start feature section -->
-    <div id="feature"></div>
+    <div id="feature">
+      <!-- jumbotron staart -->
+      <div class="jumbotron">
+        <!-- narrow div starts -->
+        <div class="narrow">
+          <div class="col-12 text-center">
+            <h3 class="heading">Features</h3>
+            <div class="heading-underline"></div>
+          </div>
+          <!-- 3 group start -->
+          <div class="row text-center">
+            <div class="col-md-4">
+              <div class="feature">
+                <i class="fas fa-play-circle fa-4x"></i>
+                <h3>Custom Animation</h3>
+                <p>
+                  Animatie,csss and waypoints.js allow for smooth animations
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="feature">
+                <i class="fas fa-play-circle fa-4x"></i>
+                <h3>Custom Animation</h3>
+                <p>
+                  Animatie,csss and waypoints.js allow for smooth animations
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="feature">
+                <i class="fas fa-play-circle fa-4x"></i>
+                <h3>Custom Animation</h3>
+                <p>
+                  Animatie,csss and waypoints.js allow for smooth animations
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- 3 group end -->
+        </div>
+        <!-- narrow div ends -->
+      </div>
+      <!-- jumbotron ends -->
+    </div>
     <!-- end feature section -->
 
     <!-- start resources section -->
-    <div id="resources"></div>
+    <div id="resources">
+      <!-- narrow div starts -->
+      <div class="narrow">
+        <div class="col-12 text-center">
+          <h3 class="heading">Resources</h3>
+          <div class="heading-underline"></div>
+        </div>
+        <!-- 3 group start -->
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="feature">
+              <i class="fas fa-play-circle fa-4x"></i>
+              <h3>Custom Animation</h3>
+              <p>Animatie,csss and waypoints.js allow for smooth animations</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="feature">
+              <i class="fas fa-play-circle fa-4x"></i>
+              <h3>Custom Animation</h3>
+              <p>Animatie,csss and waypoints.js allow for smooth animations</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="feature">
+              <i class="fas fa-play-circle fa-4x"></i>
+              <h3>Custom Animation</h3>
+              <p>Animatie,csss and waypoints.js allow for smooth animations</p>
+            </div>
+          </div>
+        </div>
+        <!-- 3 group end -->
+      </div>
+      <!-- narrow div ends -->
+    </div>
     <!-- end resources section -->
 
     <!-- start clients section -->
-    <div id="clients"></div>
+    <div id="clients">
+      <!-- jumbotron starts -->
+      <div class="jumbotron">
+
+        <div class="col-12 text-center">
+          <h3 class="heading">Clients</h3>
+          <div class="heading-underline"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 clients">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="img/client1.jpg" alt="">
+                    </div>
+                    <div class="col-md-8">
+                        <blockquote>
+                            <i class="fas fa-quote-left"></i>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Necessitatibus eaque iure, labore ducimus nihil 
+                            <hr class="clients-hr">
+                            <cite>&#8212;Eric,Small business Owner</cite>
+                        </blockquote>  
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 clients">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="img/client2.jpg" alt="">
+                    </div>
+                    <div class="col-md-8">
+                        <blockquote>
+                            <i class="fas fa-quote-left"></i>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Necessitatibus eaque iure, labore ducimus nihil 
+                            <hr class="clients-hr">
+                            <cite>&#8212;Reachal,Professional Photographer</cite>
+                        </blockquote>  
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-- jumbotron end -->
+    </div>
     <!-- end clients section -->
 
     <!-- start contact section -->
-    <div id="contact"></div>
+    <div id="contact">
+        <footer>
+            <div class="col-md-5 mx-auto text-center">
+                <p class="navbar-brand">#WebDev</p>
+                <strong>Contact Info</strong>
+                <p>(888) 888-8888<br>Ismathlifehacks@gmail.com</p>
+                <a href="" target="_blank"><i class="fab fa-facebook square"></i></a>
+                <a href="" target="_blank"><i class="fab fa-twitter square"></i></a>
+                <a href="" target="_blank"><i class="fab fa-linkedin square"></i></a>
+            </div>
+        </footer>
+    </div>
     <!-- end contact section -->
-
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>

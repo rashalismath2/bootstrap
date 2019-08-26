@@ -64,3 +64,15 @@ body{
     padding: .6rem 1.3rem;
     font-size: 1.1rem;
 }
+
+/* resources */
+#resources{
+    color: white;
+    background-image:url("../img/resources.png");
+    background-size: cover;
+    
+    background-attachment: fixed;
+    height: 100vh;
+    background-position: center;
+}
+
