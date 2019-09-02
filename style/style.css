@@ -76,3 +76,64 @@ body{
     background-position: center;
 }
 
+.narrow{
+    width:75%;
+    margin: 1.5rem auto;
+    padding-top: 2rem;
+}
+
+.narrow h1{
+    font-size:2.4rem;
+}
+
+.btn-secondary.btn-md{
+    border-width: medium;
+    border-radius:0;
+    text-transform: uppercase;
+    font-size:1.2rem;
+    padding:.6rem 1.2rem;
+    margin:1rem;
+    color:white;
+    background-color: #1ebba3;
+    border-color: #1ebba3;
+}
+
+.btn-secondary.btn-md:hover{
+    border-width: medium;
+    border-radius:0;
+    text-transform: uppercase;
+    font-size:1.2rem;
+    padding:.6rem 1.2rem;
+    margin:1rem;
+    color:white;
+    background-color: #189582;
+    border-color: #189582;
+}
+
+
+/* feature */
+.jumbotron{
+    margin:0;
+    padding:2rem 0 3.5rem;
+}
+h3.heading{
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.9rem;
+}
+.heading-underline{
+    width: 3rem;
+    height: .2rem;
+    margin: 0 auto 2rem;
+    background-color: #1ebba3;
+}
+
+/* resources */
+#resources .narrow{
+    margin-top: 0;
+}
+
+.clients img{
+    width: 100%;
+}
